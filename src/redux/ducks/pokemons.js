@@ -8,6 +8,7 @@ export const Types = {
   FETCH_POKEMONS: `${REDUCER_NAME}/FETCH_POKEMONS`,
   FETCH_POKEMON_BY_ID: `${REDUCER_NAME}/FETCH_POKEMON_BY_ID`,
   PERSIST_POKEMONS: `${REDUCER_NAME}/PERSIST_POKEMONS`,
+  PERSIST_POKEMON: `${REDUCER_NAME}/PERSIST_POKEMON`,
 };
 
 // INITIAL STATE
@@ -19,7 +20,12 @@ const initialState = {
 export const reducer = produce((draft = initialState, action) => {
   switch (action.type) {
     case Types.PERSIST_POKEMONS:
-      draft.species = action.payload;
+      draft.species = { ...action.payload };
+      return draft;
+
+    case Types.PERSIST_POKEMON:
+      const { name } = action.payload;
+      draft.species[name] = { ...action.payload };
 
       return draft;
     default:
@@ -45,6 +51,13 @@ export function persistPokemons(pokemons) {
   return {
     type: Types.PERSIST_POKEMONS,
     payload: pokemons,
+  };
+}
+
+export function persistPokemon(pokemon) {
+  return {
+    type: Types.PERSIST_POKEMON,
+    payload: pokemon,
   };
 }
 

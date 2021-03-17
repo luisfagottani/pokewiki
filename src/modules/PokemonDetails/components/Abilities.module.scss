@@ -1,0 +1,41 @@
+.abilities {
+  // Position
+  position: relative;
+
+  // Box Model
+  min-height: 50px;
+  margin-bottom: 50px;
+
+  &__item {
+    // Box Model
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+
+    &:not(:last-of-type) {
+      // Box Model
+      margin-bottom: 8px;
+    }
+
+    &:before {
+      // Box Model
+      width: 5px;
+      height: 5px;
+
+      // Visual
+      background-color: var(--biscay);
+      content: '';
+      border-radius: 5px;
+    }
+  }
+  &__label {
+    // Box Model
+    padding-left: 8px;
+
+    // Typography
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+  }
+}

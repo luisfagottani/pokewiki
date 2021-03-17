@@ -1,6 +1,17 @@
 .logo {
   // Box Model
   width: 100px;
+
+  // Visual
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+
+  &:hover {
+    // Visual
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
 }
 
 @media screen and (min-width: 1024px) {

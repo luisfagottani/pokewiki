@@ -1,7 +1,32 @@
 .profile {
   &__figure {
+    // Box Model
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  &__image {
+    // Box Model
+    height: 150px;
   }
 
   &__caption {
+    // Typography
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+
+    // Visual
+    background-color: var(--azure);
+
+    // Box Model
+    margin-bottom: 30px;
+    min-width: 50%;
+    border-radius: 5px;
+    padding: 5px 0;
   }
 }

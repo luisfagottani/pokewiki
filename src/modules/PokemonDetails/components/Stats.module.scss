@@ -1,0 +1,63 @@
+.stats {
+  // Position
+  position: relative;
+  min-height: 150px;
+
+  // Visual
+  overflow: hidden;
+
+  &__item {
+    // Box Model
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    &:not(:last-of-type) {
+      // Visual
+      border-bottom: 1px solid var(--mercury);
+    }
+  }
+
+  &__label {
+    // Typography
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  &__progress {
+    // Box Model
+    flex-basis: 50%;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 5px;
+
+    // Visual
+    overflow: hidden;
+
+    &-bar {
+      // Box Model
+      display: block;
+      height: 100%;
+
+      // Visual
+      transition: all ease-in-out 0.6s;
+
+      .stats__item--blue & {
+        // Visual
+        background-color: var(--azure);
+      }
+
+      .stats__item--yellow & {
+        // Visual
+        background-color: var(--supernova);
+      }
+
+      .stats__item--red & {
+        // Visual
+        background-color: var(--flamingo);
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.loading {
+  // Box Model
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  // Position
+  position: absolute;
+
+  &__ball {
+    // Box Model
+    width: 40px;
+    height: 40px;
+    margin: auto;
+
+    // Visual
+    animation: tada 1000ms infinite;
+  }
+}
+
+@keyframes tada {
+  0% {
+    transform: scale(1);
+  }
+  10%,
+  20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}

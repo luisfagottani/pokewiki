@@ -5,6 +5,8 @@ const Layout = ({ children }) => <main className={style.layout}>{children}</main
 
 Layout.MainTitle = ({ label = 'Title' }) => <h1 className={style.layout__title}>{label}</h1>;
 
+Layout.Subtitle = ({ label = 'Subtitle' }) => <h2 className={style.layout__subtitle}>{label}</h2>;
+
 Layout.Row = ({ children }) => <section className={style.layout__row}>{children}</section>;
 
 Layout.Column = ({ children, type }) => (

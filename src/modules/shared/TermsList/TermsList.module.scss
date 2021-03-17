@@ -1,0 +1,128 @@
+.list {
+  // Box Model
+  margin: 0 0 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+
+  &__row {
+    // Box Model
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+
+    // Position
+    position: relative;
+  }
+
+  &__dl {
+    // Box Model
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__dt {
+    // Box Model
+    margin: 0 0 5px 0;
+    padding: 0;
+
+    // Typography
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: var(--storm-gray);
+  }
+
+  &__dd {
+    // Box Model
+    margin: 0 0 15px 0;
+
+    height: 30px;
+
+    // Typography
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+
+    // Position
+    position: relative;
+
+    &:not(:last-of-type) {
+      // Visual
+      border-bottom: 1px solid var(--mercury);
+    }
+
+    &:before {
+      // Visual
+      content: '';
+      opacity: 0;
+      background-color: #f1f1f1;
+
+      // Box Model
+      width: 40%;
+      height: 20px;
+      margin: 0 auto;
+
+      // Position
+      position: absolute;
+      left: 0;
+      top: -1px;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+    }
+
+    &:after {
+      // Position
+      position: absolute;
+      left: calc(-50% - 25px);
+      top: -2px;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+
+      // Box Model
+      width: 20px;
+      margin: 0 auto;
+      height: 20px;
+
+      // Visual
+      animation: loadingBar 1s ease-in-out infinite;
+      opacity: 0;
+      content: '';
+      background-image: linear-gradient(
+        100deg,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 80%
+      );
+    }
+
+    .list--loading & {
+      &:before {
+        // Visual
+        opacity: 1;
+      }
+
+      &:after {
+        // Visual
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@keyframes loadingBar {
+  0% {
+    left: calc(-50% - 25px);
+  }
+
+  100% {
+    left: calc(50% + 25px);
+  }
+}

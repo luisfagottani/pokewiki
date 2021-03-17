@@ -1,13 +1,15 @@
+import React from 'react';
 import { connect } from 'react-redux';
 
 import Layout from 'modules/shared/Layout/Layout';
 import { fetchPokemonById, getPokemonById } from 'redux/ducks/pokemons';
 import Profile from './components/Profile';
-import React from 'react';
+import Stats from './components/Stats';
+import Abilities from './components/Abilities';
 
 const PokemonDetails = ({ pokemon, handleFetchPokemonById, pokeId }) => {
   React.useEffect(() => {
-    if (!pokemon || !pokemon?.isFetched) {
+    if (!pokemon?.details) {
       handleFetchPokemonById(pokeId);
     }
   }, [pokemon, pokeId, handleFetchPokemonById]);
@@ -15,9 +17,12 @@ const PokemonDetails = ({ pokemon, handleFetchPokemonById, pokeId }) => {
   return (
     <Layout.Row>
       <Layout.Column type="one-quarter">
-        <Profile name={pokemon?.name} />
+        <Profile name={pokemon?.name} details={pokemon?.details} />
       </Layout.Column>
-      <Layout.Column type="auto">asdadsa</Layout.Column>
+      <Layout.Column type="auto">
+        <Abilities abilities={pokemon?.details?.abilities} />
+        <Stats stats={pokemon?.details?.stats} />
+      </Layout.Column>
     </Layout.Row>
   );
 };

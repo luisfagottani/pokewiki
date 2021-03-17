@@ -9,7 +9,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   &__madeby {
     // Typography
@@ -17,5 +17,32 @@
     line-height: 12px;
     text-align: center;
     color: rgb(204, 200, 200);
+  }
+
+  &__translations {
+    // Box Model
+    display: flex;
+    align-items: center;
+  }
+
+  &__language {
+    // Typography
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--storm-gray);
+
+    // Box Model
+    margin-right: 10px;
+
+    &--hide {
+      // Box Model
+      display: none;
+    }
+
+    &:hover {
+      // Typography
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }

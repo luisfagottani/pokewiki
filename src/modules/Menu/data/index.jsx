@@ -1,6 +1,3 @@
-const menuItens = [
-  { labelId: 'header.menu.home', route: '/' },
-  { labelId: 'header.menu.generations', route: '/generations' },
-];
+const menuItens = [{ labelId: 'header.menu.home', route: '/' }];
 
 export default menuItens;

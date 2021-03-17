@@ -1,0 +1,16 @@
+{
+  "header.menu.home": "Home",
+  "home.title": "List of Pokemon's",
+  "details.profile.national_number": "National Nº",
+  "details.profile.base_experiene": "Base Experience",
+  "details.profile.height": "Height",
+  "details.profile.weight": "Weight",
+  "details.stats.title": "📈 Base Stats",
+  "details.stats.label.hp": "HP:",
+  "details.stats.label.attack": "Attack:",
+  "details.stats.label.defense": "Defense:",
+  "details.stats.label.special-attack": "Special Attack:",
+  "details.stats.label.special-defense": "Special Defense:",
+  "details.stats.label.speed": "Speed:",
+  "details.abilities.title": "🕹️ Abilities"
+}

@@ -1,5 +1,20 @@
-import ptBrTranslations from './messages/pt-BR.json';
+import { connect } from 'react-redux';
+import { IntlProvider } from 'react-intl';
 
-const Messages = { 'pt-BR': ptBrTranslations };
+import { ptBrTranslations, enTranslations } from './messages';
+import { getLocale } from 'redux/ducks/app';
 
-export default Messages;
+const ConnectedIntlProvider = ({ locale, children }) => {
+  const Messages = { 'pt-BR': ptBrTranslations, EN: enTranslations };
+  return (
+    <IntlProvider key={locale} locale={locale} messages={Messages[locale]}>
+      {children}
+    </IntlProvider>
+  );
+};
+
+const mapStateToProps = (state) => ({
+  locale: getLocale(state),
+});
+
+export default connect(mapStateToProps)(ConnectedIntlProvider);

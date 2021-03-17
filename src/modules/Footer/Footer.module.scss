@@ -1,0 +1,21 @@
+.footer {
+  // Visual
+  border-top: 1px solid var(--iron);
+
+  // Box Model
+  padding: 25px 24px;
+  margin-bottom: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__madeby {
+    // Typography
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: rgb(204, 200, 200);
+  }
+}

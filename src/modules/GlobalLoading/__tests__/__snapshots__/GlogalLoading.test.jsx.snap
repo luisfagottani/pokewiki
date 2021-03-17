@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalLoading /> Should render without errors 1`] = `
+<div>
+  <div
+    class="loading"
+  >
+    <div
+      class="loading__stage"
+    />
+    <div
+      class="loading__stage loading__stage--bottom"
+    />
+    <svg
+      class="loading__ball"
+    >
+      pokeball-icon.svg
+    </svg>
+  </div>
+</div>
+`;

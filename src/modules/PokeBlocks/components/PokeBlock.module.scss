@@ -10,9 +10,22 @@
   &__content {
     // Box Model
     width: 100%;
+    display: block;
     border: 1px solid var(--iron);
     border-radius: 4px;
     padding: 15px;
+
+    // Typography
+    text-decoration: none;
+
+    // Visual
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+      // Visual
+      box-shadow: #28282880 0px 0px 25px -12px;
+      transition: all ease-in-out 0.2s;
+    }
   }
 
   &__figure {

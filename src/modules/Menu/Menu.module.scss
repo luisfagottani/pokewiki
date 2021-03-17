@@ -1,0 +1,8 @@
+.menu {
+  &__list {
+    // Box Model
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  // Box Model
+  width: 100%;
+  display: flex;
+
+  // Visual
+  background-color: var(--supernova);
+
+  &__wrapper {
+    // Box Model
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

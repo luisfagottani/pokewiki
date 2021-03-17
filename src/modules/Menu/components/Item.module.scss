@@ -1,0 +1,10 @@
+.item {
+  &__label {
+    font-size: 24px;
+  }
+
+  &:not(:last-of-type) {
+    // Box Model
+    margin-right: 4px;
+  }
+}

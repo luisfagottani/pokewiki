@@ -43,7 +43,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "yarn lint-staged",
       "pre-push": "yarn test --testPathIgnorePatterns=src/.*/__fixtures__/*. --env=jest-environment-jsdom-sixteen --coverage --verbose --watchAll=false"
     }
   },

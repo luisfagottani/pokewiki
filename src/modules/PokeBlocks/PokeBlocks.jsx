@@ -8,7 +8,7 @@ import style from './PokeBlocks.module.scss';
 
 const PokeBlocks = ({ species }) => (
   <ul className={style.pokeblocks}>
-    {species.map((specie) => (
+    {Object.values(species).map((specie) => (
       <PokeBlock key={specie.name} label={specie.name} />
     ))}
   </ul>

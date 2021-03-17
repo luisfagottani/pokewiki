@@ -13,9 +13,6 @@
   justify-content: center;
   flex-direction: column;
 
-  // Visual
-  animation: show 300ms backwards;
-
   &--hide {
     // Visual
     animation: hide 1000ms forwards;
@@ -131,16 +128,5 @@
   100% {
     z-index: -1;
     opacity: 0;
-  }
-}
-
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    z-index: 10;
   }
 }

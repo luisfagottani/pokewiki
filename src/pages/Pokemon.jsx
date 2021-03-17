@@ -1,13 +1,15 @@
-import { useIntl } from 'react-intl';
+import { useParams } from 'react-router';
 
-import Layout from 'modules/Layout';
+import Layout from 'modules/shared/Layout';
 import PokemonDetails from 'modules/PokemonDetails/PokemonDetails';
+import React from 'react';
 
 const Pokemon = () => {
+  const { pokeId } = useParams();
+
   return (
     <Layout>
-      <Layout.MainTitle label="Bulbasauro" />
-      <PokemonDetails />
+      <PokemonDetails pokeId={pokeId} />
     </Layout>
   );
 };

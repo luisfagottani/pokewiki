@@ -6,6 +6,12 @@ const Pokemons = {
       method: 'GET',
     });
   },
+
+  getPokemonById: async (id) => {
+    return fetchApi(`pokemon/${id}`, {
+      method: 'GET',
+    });
+  },
 };
 
 export default Pokemons;

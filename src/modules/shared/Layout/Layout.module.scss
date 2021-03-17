@@ -18,7 +18,6 @@
     // Box Model
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     width: 100%;
     margin: 0 -10px;
   }
@@ -44,6 +43,17 @@
     &__column {
       // Box Model
       flex-basis: 50%;
+
+      &--one-quarter {
+        // Box Model
+        flex: 0 0 30%;
+        max-width: 30%;
+      }
+
+      &--auto {
+        // Box Model
+        flex: 1;
+      }
     }
   }
 }

@@ -7,7 +7,7 @@ import Pokemon from 'pages/Pokemon';
 const Routes = () => (
   <Switch>
     <Route path="/" exact component={Home} />
-    <Route exact path="/pokemon/:id" component={Pokemon} />
+    <Route exact path="/pokemon/:pokeId" component={Pokemon} />
   </Switch>
 );
 

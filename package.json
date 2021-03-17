@@ -1,6 +1,6 @@
 {
   "name": "react-pokeapi",
-  "homepage": "https://luisfagottani.github.io/pokewiki",
+  "homepage": "http://luisfagottani.github.io/pokewiki",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

@@ -2,7 +2,7 @@
   "name": "react-pokeapi",
   "homepage": "http://luisfagottani.github.io/pokewiki",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@formatjs/intl-pluralrules": "^4.0.12",
     "@testing-library/jest-dom": "^5.11.4",

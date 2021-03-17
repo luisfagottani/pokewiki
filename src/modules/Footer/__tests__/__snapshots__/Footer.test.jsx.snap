@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Should render without errors 1`] = `
+<div>
+  <footer
+    class="footer"
+  >
+    <ul
+      class="footer__translations"
+    >
+      <li
+        class="footer__language"
+      >
+        PT-BR
+      </li>
+      <li
+        class="footer__language footer__language--hide"
+      >
+        EN
+      </li>
+    </ul>
+    <p
+      class="footer__madeby"
+    >
+      PokeAPI by Luis Agottani with CRA
+    </p>
+  </footer>
+</div>
+`;

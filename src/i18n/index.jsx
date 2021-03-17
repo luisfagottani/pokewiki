@@ -4,8 +4,9 @@ import { IntlProvider } from 'react-intl';
 import { ptBrTranslations, enTranslations } from './messages';
 import { getLocale } from 'redux/ducks/app';
 
+export const Messages = { 'pt-BR': ptBrTranslations, EN: enTranslations };
+
 const ConnectedIntlProvider = ({ locale, children }) => {
-  const Messages = { 'pt-BR': ptBrTranslations, EN: enTranslations };
   return (
     <IntlProvider key={locale} locale={locale} messages={Messages[locale]}>
       {children}

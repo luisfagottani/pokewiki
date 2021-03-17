@@ -12,5 +12,6 @@
   "details.stats.label.special-attack": "Ataque Especial:",
   "details.stats.label.special-defense": "Defesa Especial:",
   "details.stats.label.speed": "Velocidade:",
-  "details.abilities.title": "🕹️ Habilidades"
+  "details.abilities.title": "🕹️ Habilidades",
+  "footer.description": "PokeAPI por Luis Agottani feito com CRA"
 }

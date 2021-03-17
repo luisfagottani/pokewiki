@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { useIntl } from 'react-intl';
 import { connect } from 'react-redux';
 
 import { defineLocale, getLocale } from 'redux/ducks/app';
@@ -9,6 +10,8 @@ const Footer = ({ currentLocale, handleDefineLocale }) => {
   const defineLocaleOnClick = (locale) => {
     handleDefineLocale(locale);
   };
+
+  const intl = useIntl();
   return (
     <footer className={style.footer}>
       <ul className={style.footer__translations}>
@@ -27,7 +30,7 @@ const Footer = ({ currentLocale, handleDefineLocale }) => {
           EN
         </li>
       </ul>
-      <p className={style.footer__madeby}>PokeAPI by Luis Agottani with CRA</p>
+      <p className={style.footer__madeby}>{intl.formatMessage({ id: 'footer.description' })}</p>
     </footer>
   );
 };

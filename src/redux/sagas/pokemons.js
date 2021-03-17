@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { call, takeLatest, put } from '@redux-saga/core/effects';
 import PokemonsApi from 'api/pokemons';
-import { Deserializer } from 'jsonapi-serializer';
 import { defineGlobalLoading } from 'redux/ducks/app';
 import { Types } from 'redux/ducks/pokemons';
 

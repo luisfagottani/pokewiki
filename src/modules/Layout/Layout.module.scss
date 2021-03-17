@@ -1,0 +1,16 @@
+.layout {
+  // Box Model
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__title {
+    // Typography
+    font-size: 24px;
+    font-weight: 600;
+
+    // Box Model
+    margin-bottom: 30px;
+  }
+}

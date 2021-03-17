@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pokewiki/static/css/main.57598b3e.chunk.css",
+    "main.js": "/pokewiki/static/js/main.76e7df19.chunk.js",
+    "main.js.map": "/pokewiki/static/js/main.76e7df19.chunk.js.map",
+    "runtime-main.js": "/pokewiki/static/js/runtime-main.b2663974.js",
+    "runtime-main.js.map": "/pokewiki/static/js/runtime-main.b2663974.js.map",
+    "static/js/2.6197458d.chunk.js": "/pokewiki/static/js/2.6197458d.chunk.js",
+    "static/js/2.6197458d.chunk.js.map": "/pokewiki/static/js/2.6197458d.chunk.js.map",
+    "static/js/3.b826ca0e.chunk.js": "/pokewiki/static/js/3.b826ca0e.chunk.js",
+    "static/js/3.b826ca0e.chunk.js.map": "/pokewiki/static/js/3.b826ca0e.chunk.js.map",
+    "index.html": "/pokewiki/index.html",
+    "static/css/main.57598b3e.chunk.css.map": "/pokewiki/static/css/main.57598b3e.chunk.css.map",
+    "static/js/2.6197458d.chunk.js.LICENSE.txt": "/pokewiki/static/js/2.6197458d.chunk.js.LICENSE.txt",
+    "static/media/pokeball-icon.d95bf51d.svg": "/pokewiki/static/media/pokeball-icon.d95bf51d.svg",
+    "static/media/pokemon-logo.0f97d60b.svg": "/pokewiki/static/media/pokemon-logo.0f97d60b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2663974.js",
+    "static/js/2.6197458d.chunk.js",
+    "static/css/main.57598b3e.chunk.css",
+    "static/js/main.76e7df19.chunk.js"
+  ]
+}

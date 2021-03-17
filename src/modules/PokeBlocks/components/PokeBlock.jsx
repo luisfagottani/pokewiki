@@ -1,19 +1,15 @@
-import { ReactComponent as PokeballIcon } from 'assets/images/pokeball-icon.svg';
-
+import { Link } from 'react-router-dom';
+import { pokemonImage } from 'utils/functions';
 import style from './PokeBlock.module.scss';
 
-const PokeBlock = ({ label = 'Pokemon', alt = 'Alt image', imgSrc = '' }) => (
+const PokeBlock = ({ label = 'Pokemon' }) => (
   <li className={style.pokeblock}>
-    <a href={'123'} className={style.pokeblock__content}>
+    <Link to={label} className={style.pokeblock__content}>
       <figure className={style.pokeblock__figure}>
-        {imgSrc ? (
-          <img src={imgSrc} alt={alt} className={style.pokeblock__image} />
-        ) : (
-          <PokeballIcon className={style.pokeblock__image} />
-        )}
+        {pokemonImage(label, style.pokeblock__image)}
         <figcaption className={style.pokeblock__caption}>{label}</figcaption>
       </figure>
-    </a>
+    </Link>
   </li>
 );
 

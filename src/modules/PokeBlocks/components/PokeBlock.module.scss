@@ -38,7 +38,7 @@
 
   &__image {
     // Box Model
-    width: 60%;
+    height: 100px;
     margin-bottom: 20px;
   }
 
@@ -48,6 +48,7 @@
     font-weight: 600;
     color: var(--azure);
     text-decoration: none;
+    text-transform: capitalize;
   }
 }
 

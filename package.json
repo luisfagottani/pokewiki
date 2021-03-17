@@ -1,7 +1,8 @@
 {
   "name": "react-pokeapi",
+  "homepage": "https://luisfagottani.github.io/pokewiki/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.2.5",
@@ -9,6 +10,7 @@
     "classnames": "^2.2.6",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.1.0",
     "husky": "^5.1.3",
     "jsonapi-serializer": "^3.6.7",
     "node-sass": "^5.0.0",
@@ -25,6 +27,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "deploy:publish": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +37,22 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{css,json,md,mdx}": [
+      "yarn run prettify --write",
+      "git add"
     ]
   },
   "browserslist": {

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a040bb40.chunk.css",
-    "main.js": "/static/js/main.ba0d9c12.chunk.js",
-    "main.js.map": "/static/js/main.ba0d9c12.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5135a34d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5135a34d.js.map",
-    "static/js/2.a356598a.chunk.js": "/static/js/2.a356598a.chunk.js",
-    "static/js/2.a356598a.chunk.js.map": "/static/js/2.a356598a.chunk.js.map",
-    "static/js/3.540da3ac.chunk.js": "/static/js/3.540da3ac.chunk.js",
-    "static/js/3.540da3ac.chunk.js.map": "/static/js/3.540da3ac.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a040bb40.chunk.css.map": "/static/css/main.a040bb40.chunk.css.map",
-    "static/js/2.a356598a.chunk.js.LICENSE.txt": "/static/js/2.a356598a.chunk.js.LICENSE.txt",
-    "static/media/pokeball-icon.d95bf51d.svg": "/static/media/pokeball-icon.d95bf51d.svg",
-    "static/media/pokemon-logo.0f97d60b.svg": "/static/media/pokemon-logo.0f97d60b.svg"
+    "main.css": "/pokewiki/static/css/main.a040bb40.chunk.css",
+    "main.js": "/pokewiki/static/js/main.ba0d9c12.chunk.js",
+    "main.js.map": "/pokewiki/static/js/main.ba0d9c12.chunk.js.map",
+    "runtime-main.js": "/pokewiki/static/js/runtime-main.b13533cc.js",
+    "runtime-main.js.map": "/pokewiki/static/js/runtime-main.b13533cc.js.map",
+    "static/js/2.a356598a.chunk.js": "/pokewiki/static/js/2.a356598a.chunk.js",
+    "static/js/2.a356598a.chunk.js.map": "/pokewiki/static/js/2.a356598a.chunk.js.map",
+    "static/js/3.540da3ac.chunk.js": "/pokewiki/static/js/3.540da3ac.chunk.js",
+    "static/js/3.540da3ac.chunk.js.map": "/pokewiki/static/js/3.540da3ac.chunk.js.map",
+    "index.html": "/pokewiki/index.html",
+    "static/css/main.a040bb40.chunk.css.map": "/pokewiki/static/css/main.a040bb40.chunk.css.map",
+    "static/js/2.a356598a.chunk.js.LICENSE.txt": "/pokewiki/static/js/2.a356598a.chunk.js.LICENSE.txt",
+    "static/media/pokeball-icon.d95bf51d.svg": "/pokewiki/static/media/pokeball-icon.d95bf51d.svg",
+    "static/media/pokemon-logo.0f97d60b.svg": "/pokewiki/static/media/pokemon-logo.0f97d60b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5135a34d.js",
+    "static/js/runtime-main.b13533cc.js",
     "static/js/2.a356598a.chunk.js",
     "static/css/main.a040bb40.chunk.css",
     "static/js/main.ba0d9c12.chunk.js"

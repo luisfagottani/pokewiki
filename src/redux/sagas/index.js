@@ -2,10 +2,10 @@ import app from './app';
 // import auth from "./auth";
 // import members from "./members";
 // import contracts from "./contracts";
-// import payments from "./payments";
+import pokemons from './pokemons';
 
 const runSaga = (sagaMiddleware) => {
-  // sagaMiddleware.run(app);
+  sagaMiddleware.run(pokemons);
 };
 
 export default runSaga;

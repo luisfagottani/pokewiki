@@ -13,4 +13,37 @@
     // Box Model
     margin-bottom: 30px;
   }
+
+  &__row {
+    // Box Model
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 -10px;
+  }
+
+  &__column {
+    // Box Model
+    padding: 10px;
+    flex-basis: 100%;
+  }
+
+  &__content {
+    // Box Model
+    border: 1px solid var(--iron);
+    padding: 10px;
+
+    // Visual
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .layout {
+    &__column {
+      // Box Model
+      flex-basis: 50%;
+    }
+  }
 }

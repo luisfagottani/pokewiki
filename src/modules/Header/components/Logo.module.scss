@@ -2,3 +2,10 @@
   // Box Model
   width: 100px;
 }
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    // Box Model
+    width: 130px;
+  }
+}

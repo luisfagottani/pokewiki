@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can access PokeWiki here: [GitHub Pages](https://luisfagottani.github.io/pokewiki/).
 
-## :gem: Stack
+### :gem: Stack
 
 This project uses [ReactJS](https://reactjs.org/) as the main lib, bootstraped with [create-react-app](https://github.com/facebook/create-react-app). The styling is done with [css-modules](https://github.com/css-modules/css-modules) and the automated tests with [jest](https://jestjs.io/) + [testing-library](https://testing-library.com/).
 

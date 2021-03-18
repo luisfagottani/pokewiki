@@ -39,14 +39,6 @@ $ yarn
 $ yarn start
 ```
 
-## :tophat: Prettier
-
-Was set up in the project a hook of the `Husky` to format code in the pre-commit. If you want run manually, run the following command:
-
-```
-$ yarn format
-```
-
 ## :microscope: Testing
 
 Was used testing library and jest to create unit tests in the application. If you want run manually, run the following command:

@@ -49,12 +49,6 @@
       "react-app/jest"
     ]
   },
-  "jest": {
-    "watchPathIgnorePatterns": [
-      "<rootDir>/node_modules/",
-      "__tests__/__fixtures__/"
-    ]
-  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix",

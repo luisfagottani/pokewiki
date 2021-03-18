@@ -1,7 +1,7 @@
 import { createMockStore, render } from 'utils/tests';
 import { reducer as AppReducer, REDUCER_NAME as APP_REDUCER_NAME } from 'redux/ducks/app';
 import Profile from '../components/Profile';
-import { details } from './__fixtures__';
+import { details } from '../__fixtures__';
 
 const mockStore = createMockStore({
   reducers: { [APP_REDUCER_NAME]: AppReducer },

@@ -52,18 +52,16 @@
   "jest": {
     "watchPathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "__tests__/__fixtures__"
+      "__tests__/__fixtures__/"
     ]
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "*.{css,json,md,mdx}": [
-      "yarn run prettify --write",
-      "git add"
+      "yarn run prettify --write"
     ]
   },
   "browserslist": {

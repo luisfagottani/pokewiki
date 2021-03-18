@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn test --env=jest-environment-jsdom-sixteen --coverage --verbose --watchAll=false && eslint src
+yarn test --coverage --verbose --watchAll=false && eslint src
 

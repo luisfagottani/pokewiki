@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonDetails /> Should render without errors 1`] = `
+<div>
+  <div
+    class="profile"
+    data-testid="profile"
+  >
+    <figure
+      class="profile__figure"
+    >
+      <figcaption
+        class="profile__caption"
+      >
+        bulbasaur
+      </figcaption>
+      <img
+        alt="bulbasaur"
+        class="profile__image"
+        src="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+      />
+    </figure>
+    <div
+      class="list"
+    >
+      <dl
+        class="list__dl"
+      >
+        <dt
+          class="list__dt"
+        >
+          National Nº
+        </dt>
+        <dd
+          class="list__dd"
+        >
+          1
+        </dd>
+        <dt
+          class="list__dt"
+        >
+          Base Experience
+        </dt>
+        <dd
+          class="list__dd"
+        >
+          64
+        </dd>
+        <dt
+          class="list__dt"
+        >
+          Height
+        </dt>
+        <dd
+          class="list__dd"
+        >
+          7
+        </dd>
+        <dt
+          class="list__dt"
+        >
+          Weight
+        </dt>
+        <dd
+          class="list__dd"
+        >
+          69
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+`;

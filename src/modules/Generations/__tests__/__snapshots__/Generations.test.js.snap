@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Generations /> Should render without errors 1`] = `
+<div>
+  <ul
+    class="generations"
+  >
+    <li
+      class="generations__item"
+    >
+      <a
+        class="generations__content"
+        href="/generations/generation-i"
+      >
+        <span
+          class="generations__label"
+        >
+          generation-i
+        </span>
+      </a>
+    </li>
+    <li
+      class="generations__item"
+    >
+      <a
+        class="generations__content"
+        href="/generations/generation-ii"
+      >
+        <span
+          class="generations__label"
+        >
+          generation-ii
+        </span>
+      </a>
+    </li>
+    <li
+      class="generations__item"
+    >
+      <a
+        class="generations__content"
+        href="/generations/generation-iii"
+      >
+        <span
+          class="generations__label"
+        >
+          generation-iii
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

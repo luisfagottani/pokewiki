@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Abilities /> Should render without errors 1`] = `
+<div>
+  <div
+    class="abilities"
+    data-testid="abilities"
+  >
+    <h2
+      class="layout__subtitle"
+    >
+      🕹️ Abilities
+    </h2>
+    <ul
+      class="abilities__list"
+    >
+      <li
+        class="abilities__item"
+      >
+        <span
+          class="abilities__label"
+        >
+          overgrow
+        </span>
+      </li>
+      <li
+        class="abilities__item"
+      >
+        <span
+          class="abilities__label"
+        >
+          chlorophyll
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

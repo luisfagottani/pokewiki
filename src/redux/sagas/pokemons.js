@@ -19,13 +19,13 @@ export function* fetchPokemons() {
   }
 }
 
-export function* fetchPokemonById(id) {
+export function* fetchPokemonById(pokeId) {
   try {
     const species = [];
-    const response = yield call([PokemonsApi, PokemonsApi.getPokemonById], id);
-    const { name, ...details } = response;
+    const response = yield call([PokemonsApi, PokemonsApi.getPokemonById], pokeId);
+    const { name, abilities, height, stats, weight, id, base_experience } = response;
 
-    species[id] = { name: id, details };
+    species[pokeId] = { name: pokeId, details: { name, abilities, height, stats, weight, id, base_experience } };
 
     yield put(persistPokemons(species));
     yield put(defineGlobalLoading(false));

@@ -12,7 +12,7 @@ const Stats = ({ stats = [] }) => {
   const isLoading = stats.length === 0;
 
   return (
-    <div className={style.stats}>
+    <div className={style.stats} data-testid="stats">
       <Layout.Subtitle label={intl.formatMessage({ id: 'details.stats.title' })} />
       <LoadingSection isLoading={isLoading} />
       <ul className={style.stats__list}>

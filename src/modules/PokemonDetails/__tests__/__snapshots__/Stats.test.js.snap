@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stats /> Should render without errors 1`] = `
+<div>
+  <div
+    class="stats"
+    data-testid="stats"
+  >
+    <h2
+      class="layout__subtitle"
+    >
+      📈 Base Stats
+    </h2>
+    <ul
+      class="stats__list"
+    >
+      <li
+        class="stats__item stats__item--blue"
+      >
+        <span
+          class="stats__label"
+        >
+          HP:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 45%;"
+          />
+        </div>
+      </li>
+      <li
+        class="stats__item stats__item--blue"
+      >
+        <span
+          class="stats__label"
+        >
+          Attack:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 49%;"
+          />
+        </div>
+      </li>
+      <li
+        class="stats__item stats__item--blue"
+      >
+        <span
+          class="stats__label"
+        >
+          Defense:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 49%;"
+          />
+        </div>
+      </li>
+      <li
+        class="stats__item stats__item--yellow"
+      >
+        <span
+          class="stats__label"
+        >
+          Special Attack:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 65%;"
+          />
+        </div>
+      </li>
+      <li
+        class="stats__item stats__item--yellow"
+      >
+        <span
+          class="stats__label"
+        >
+          Special Defense:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 65%;"
+          />
+        </div>
+      </li>
+      <li
+        class="stats__item stats__item--blue"
+      >
+        <span
+          class="stats__label"
+        >
+          Speed:
+        </span>
+        <div
+          class="stats__progress"
+        >
+          <span
+            class="stats__progress-bar"
+            style="width: 45%;"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -9,7 +9,7 @@ const Profile = ({ name = '', details = undefined }) => {
   const intl = useIntl();
 
   return (
-    <div className={style.profile}>
+    <div className={style.profile} data-testid="profile">
       <figure className={style.profile__figure}>
         <figcaption className={style.profile__caption}>{name}</figcaption>
         {pokemonImage(name, style.profile__image)}

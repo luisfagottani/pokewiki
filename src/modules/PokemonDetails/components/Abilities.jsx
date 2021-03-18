@@ -9,7 +9,7 @@ const Abilities = ({ abilities = [] }) => {
   const intl = useIntl();
   const isLoading = abilities.length === 0;
   return (
-    <div className={style.abilities}>
+    <div className={style.abilities} data-testid="abilities">
       <Layout.Subtitle label={intl.formatMessage({ id: 'details.abilities.title' })} />
       <LoadingSection isLoading={isLoading} />
       <ul className={style.abilities__list}>

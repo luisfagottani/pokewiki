@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonDetails /> Should render without errors 1`] = `
+<div>
+  <section
+    class="layout__row"
+  >
+    <div
+      class="layout__column layout__column--one-quarter"
+    >
+      <div
+        class="layout__content"
+      >
+        <div
+          class="profile"
+          data-testid="profile"
+        >
+          <figure
+            class="profile__figure"
+          >
+            <figcaption
+              class="profile__caption"
+            />
+            <svg
+              class="profile__image"
+            >
+              pokeball-icon.svg
+            </svg>
+          </figure>
+          <div
+            class="list list--loading"
+          >
+            <dl
+              class="list__dl"
+            >
+              <dt
+                class="list__dt"
+              >
+                National Nº
+              </dt>
+              <dd
+                class="list__dd"
+              />
+              <dt
+                class="list__dt"
+              >
+                Base Experience
+              </dt>
+              <dd
+                class="list__dd"
+              />
+              <dt
+                class="list__dt"
+              >
+                Height
+              </dt>
+              <dd
+                class="list__dd"
+              />
+              <dt
+                class="list__dt"
+              >
+                Weight
+              </dt>
+              <dd
+                class="list__dd"
+              />
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="layout__column layout__column--auto"
+    >
+      <div
+        class="layout__content"
+      >
+        <div
+          class="abilities"
+          data-testid="abilities"
+        >
+          <h2
+            class="layout__subtitle"
+          >
+            🕹️ Abilities
+          </h2>
+          <div
+            class="loading"
+            data-testid="loading-section"
+          >
+            <svg
+              class="loading__ball"
+            >
+              pokeball-icon.svg
+            </svg>
+          </div>
+          <ul
+            class="abilities__list"
+          />
+        </div>
+        <div
+          class="stats"
+          data-testid="stats"
+        >
+          <h2
+            class="layout__subtitle"
+          >
+            📈 Base Stats
+          </h2>
+          <div
+            class="loading"
+            data-testid="loading-section"
+          >
+            <svg
+              class="loading__ball"
+            >
+              pokeball-icon.svg
+            </svg>
+          </div>
+          <ul
+            class="stats__list"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -3,7 +3,6 @@ import { createMockStore, render, fireEvent } from 'utils/tests';
 import { reducer as AppReducer, REDUCER_NAME as APP_REDUCER_NAME } from 'redux/ducks/app';
 import { act } from 'react-dom/test-utils';
 import Footer from '..';
-import store from 'redux';
 
 const mockStore = createMockStore({
   reducers: { [APP_REDUCER_NAME]: AppReducer },

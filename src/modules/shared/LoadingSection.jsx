@@ -8,7 +8,7 @@ const LoadingSection = ({ isLoading }) => {
   }
 
   return (
-    <div className={style.loading}>
+    <div className={style.loading} data-testid="loading-section">
       <PokeballIcon className={style.loading__ball} />
     </div>
   );

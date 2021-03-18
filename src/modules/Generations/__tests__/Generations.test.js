@@ -1,8 +1,7 @@
 import React from 'react';
-import { createMockStore, render, fireEvent } from 'utils/tests';
+import { createMockStore, render } from 'utils/tests';
 import { reducer as AppReducer, REDUCER_NAME as APP_REDUCER_NAME } from 'redux/ducks/app';
 import { reducer as GenerationReducer, REDUCER_NAME as GENERATION_REDUCER_NAME } from 'redux/ducks/generations';
-import { act } from 'react-dom/test-utils';
 import Generations from '../';
 
 const mockStore = createMockStore({

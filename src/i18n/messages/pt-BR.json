@@ -1,6 +1,8 @@
 {
   "header.menu.home": "Página Inicial",
+  "header.menu.generations": "Gerações",
   "home.title": "Lista de Pokemons",
+  "generations.title": "Gerações",
   "details.profile.national_number": "Nº Nacional",
   "details.profile.base_experiene": "Experiência",
   "details.profile.height": "Altura",

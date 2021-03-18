@@ -1,6 +1,8 @@
 {
   "header.menu.home": "Home",
+  "header.menu.generations": "Generations",
   "home.title": "List of Pokemon's",
+  "generations.title": "Generations",
   "details.profile.national_number": "National Nº",
   "details.profile.base_experiene": "Base Experience",
   "details.profile.height": "Height",

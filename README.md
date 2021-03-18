@@ -6,13 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can access PokeWiki here: [GitHub Pages](https://luisfagottani.github.io/pokewiki/).
 
-### :gem: Stack
+## :gem: Stack
 
 This project uses [ReactJS](https://reactjs.org/) as the main lib, bootstraped with [create-react-app](https://github.com/facebook/create-react-app). The styling is done with [css-modules](https://github.com/css-modules/css-modules) and the automated tests with [jest](https://jestjs.io/) + [testing-library](https://testing-library.com/).
 
 I'm using [yarn](https://yarnpkg.com) as the package manager, [GitHub Pages](https://pages.github.com/) to render the app, [React Redux](https://react-redux.js.org/) to manage the state of the application, [Redux Sagas](https://redux-saga.js.org/) to make application side effects and [@FormatJs/React-Intl](https://formatjs.io/docs/react-intl/) to manage the internationalization of the application
 
-### :clipboard: Requirements
+## :clipboard: Requirements
 
 - [NodeJS](https://nodejs.org/en/) (LTS is fine);
 - [yarn](https://classic.yarnpkg.com/en/docs/install/) - it can be installed as a [npm package](https://www.npmjs.com/package/yarn) or you can follow the instructions on the official website.

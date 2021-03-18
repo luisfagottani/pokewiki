@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# PokeWiki
+
+This project is a Pokédex based on the anime and games Pokémon.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## :checkered_flag: How to start
 
-In the project directory, you can run:
+You need have `node 12+` installed in your machine.
 
-### `yarn start`
+1. Clone this project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+git clone git@github.com:luisfagottani/pokewiki.git
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Install dependencies:
 
-### `yarn test`
+```
+$ yarn
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Run the project:
 
-### `yarn build`
+```
+$ yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :tophat: Prettier
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Was set up in the project a hook of the `Husky` to format code in the pre-commit. If you want run manually, run the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ yarn format
+```
 
-### `yarn eject`
+## :microscope: Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Was used testing library and jest to create unit tests in the application. If you want run manually, run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ yarn test
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :hammer: Building
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To building the project, run the following commands:
 
-## Learn More
+```
+$ yarn build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :rocket: Deploying
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project uses gh-pages from GitHub as hosting. After making your changes, you need run:
 
-### Code Splitting
+```
+$ yarn deploy:publish
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This command will make the automatic deploy of the branch `gh-pages` and your site will be automatically published.
